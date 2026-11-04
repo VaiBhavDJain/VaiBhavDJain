@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="416" viewBox="0 0 1200 416" role="img" aria-labelledby="title">
+  <title id="title">Impact: page load 4.2s to 1.5s, developer onboarding 6 hours to under 30 minutes, test coverage 45% to 80%, real-time sync for 200+ stores</title>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes wave { 0%, 100% { opacity: 0.25; } 40% { opacity: 1; } }
+    .card { animation: rise 0.6s ease-out both; }
+    .dot { animation: wave 2.2s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g class="card" style="animation-delay:0.00s">
+  <rect x="0.5" y="0.5" width="587" height="195" rx="14" fill="#161b22" stroke="#30363d"/>
+  <text class="mono" x="28" y="42" font-size="14" font-weight="700" letter-spacing="1.6" fill="#79c0ff">PAGE LOAD</text>
+  <rect x="506.8" y="24" width="53.2" height="26" rx="13" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.4"/>
+  <text class="mono" x="517.8" y="42" font-size="13" font-weight="700" fill="#3fb950" textLength="31.2" lengthAdjust="spacingAndGlyphs">−64%</text>
+  <text class="sans" x="26" y="100" font-size="50" font-weight="800" letter-spacing="-0.5"><tspan fill="#8b949e">4.2s</tspan><tspan fill="#8b949e" dx="10">→</tspan><tspan fill="#3fb950" dx="10">1.5s</tspan></text>
+  <text class="sans" x="28" y="134" font-size="19" font-weight="600" fill="#e6edf3">Faster pages on a legacy Rails app</text>
+  <text class="sans" x="28" y="158" font-size="16.5" fill="#8b949e">Query tuning · caching · leaner React · CDN assets</text>
+  <rect x="28" y="174" width="532" height="8" rx="4" fill="#21262d"/>
+  <style>@keyframes bar0{0%,15%{transform:scaleX(1.0);fill:#f85149}60%,100%{transform:scaleX(0.357);fill:#3fb950}}.bar0{transform-box:fill-box;transform-origin:left center;transform:scaleX(0.357);animation:bar0 4s ease-in-out .4s both}</style>
+  <rect class="bar0" x="28" y="174" width="532" height="8" rx="4" fill="#3fb950"/>
+  </g>
+  <g class="card" style="animation-delay:0.12s">
+  <rect x="612.5" y="0.5" width="587" height="195" rx="14" fill="#161b22" stroke="#30363d"/>
+  <text class="mono" x="640" y="42" font-size="14" font-weight="700" letter-spacing="1.6" fill="#79c0ff">DEV ONBOARDING</text>
+  <rect x="1118.8" y="24" width="53.2" height="26" rx="13" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.4"/>
+  <text class="mono" x="1129.8" y="42" font-size="13" font-weight="700" fill="#3fb950" textLength="31.2" lengthAdjust="spacingAndGlyphs">−92%</text>
+  <text class="sans" x="638" y="100" font-size="50" font-weight="800" letter-spacing="-0.5"><tspan fill="#8b949e">6h</tspan><tspan fill="#8b949e" dx="10">→</tspan><tspan fill="#3fb950" dx="10">&lt;30m</tspan></text>
+  <text class="sans" x="640" y="134" font-size="19" font-weight="600" fill="#e6edf3">New-developer setup, start to running app</text>
+  <text class="sans" x="640" y="158" font-size="16.5" fill="#8b949e">Dockerised environments + CI/CD pipelines</text>
+  <rect x="640" y="174" width="532" height="8" rx="4" fill="#21262d"/>
+  <style>@keyframes bar1{0%,15%{transform:scaleX(1.0);fill:#f85149}60%,100%{transform:scaleX(0.083);fill:#3fb950}}.bar1{transform-box:fill-box;transform-origin:left center;transform:scaleX(0.083);animation:bar1 4s ease-in-out .4s both}</style>
+  <rect class="bar1" x="640" y="174" width="532" height="8" rx="4" fill="#3fb950"/>
+  </g>
+  <g class="card" style="animation-delay:0.24s">
+  <rect x="0.5" y="220.5" width="587" height="195" rx="14" fill="#161b22" stroke="#30363d"/>
+  <text class="mono" x="28" y="262" font-size="14" font-weight="700" letter-spacing="1.6" fill="#79c0ff">TEST COVERAGE</text>
+  <rect x="483.4" y="244" width="76.6" height="26" rx="13" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.4"/>
+  <text class="mono" x="494.4" y="262" font-size="13" font-weight="700" fill="#3fb950" textLength="54.6" lengthAdjust="spacingAndGlyphs">+35 pts</text>
+  <text class="sans" x="26" y="320" font-size="50" font-weight="800" letter-spacing="-0.5"><tspan fill="#8b949e">45%</tspan><tspan fill="#8b949e" dx="10">→</tspan><tspan fill="#3fb950" dx="10">80%</tspan></text>
+  <text class="sans" x="28" y="354" font-size="19" font-weight="600" fill="#e6edf3">RSpec unit &amp; integration suites, TDD-first</text>
+  <text class="sans" x="28" y="378" font-size="16.5" fill="#8b949e">Running in CI on every change</text>
+  <rect x="28" y="394" width="532" height="8" rx="4" fill="#21262d"/>
+  <style>@keyframes bar2{0%,15%{transform:scaleX(0.45);fill:#8b949e}60%,100%{transform:scaleX(0.800);fill:#3fb950}}.bar2{transform-box:fill-box;transform-origin:left center;transform:scaleX(0.800);animation:bar2 4s ease-in-out .4s both}</style>
+  <rect class="bar2" x="28" y="394" width="532" height="8" rx="4" fill="#3fb950"/>
+  </g>
+  <g class="card" style="animation-delay:0.36s">
+  <rect x="612.5" y="220.5" width="587" height="195" rx="14" fill="#161b22" stroke="#30363d"/>
+  <text class="mono" x="640" y="262" font-size="14" font-weight="700" letter-spacing="1.6" fill="#79c0ff">MARKETPLACE SYNC</text>
+  <rect x="1118.8" y="244" width="53.2" height="26" rx="13" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.4"/>
+  <text class="mono" x="1129.8" y="262" font-size="13" font-weight="700" fill="#3fb950" textLength="31.2" lengthAdjust="spacingAndGlyphs">live</text>
+  <text class="sans" x="638" y="320" font-size="50" font-weight="800" letter-spacing="-0.5"><tspan fill="#e6edf3">200+ stores</tspan></text>
+  <text class="sans" x="640" y="354" font-size="19" font-weight="600" fill="#e6edf3">Real-time price &amp; inventory sync</text>
+  <text class="sans" x="640" y="378" font-size="16.5" fill="#8b949e">Store sites and marketplaces stay consistent</text>
+  <circle class="dot" style="animation-delay:0.00s" cx="640.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.09s" cx="668.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.18s" cx="696.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.27s" cx="724.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.36s" cx="752.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.45s" cx="780.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.54s" cx="808.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.63s" cx="836.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.72s" cx="864.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.81s" cx="892.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.90s" cx="920.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:0.99s" cx="948.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:1.08s" cx="976.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:1.17s" cx="1004.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:1.26s" cx="1032.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:1.35s" cx="1060.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:1.44s" cx="1088.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:1.53s" cx="1116.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:1.62s" cx="1144.0" cy="398" r="5" fill="#3fb950"/>
+  <circle class="dot" style="animation-delay:1.71s" cx="1172.0" cy="398" r="5" fill="#3fb950"/>
+  </g>
+</svg>

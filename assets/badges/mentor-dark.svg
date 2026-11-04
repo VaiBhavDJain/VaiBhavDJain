@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="236" viewBox="0 0 200 236" role="img" aria-labelledby="t">
+  <title id="t">Mentor: Mentoring junior developers on conventions, testing and clean code</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#f9a8d4"/>
+      <stop offset="1" stop-color="#be185d"/>
+    </linearGradient>
+    <linearGradient id="s" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><polygon points="100.0,16.0 155.4,48.0 155.4,112.0 100.0,144.0 44.6,112.0 44.6,48.0"/></clipPath>
+  </defs>
+  <style>
+    @keyframes pop { 0% { opacity: 0; transform: scale(0.6); } 70% { opacity: 1; transform: scale(1.06); } 100% { transform: scale(1); } }
+    @keyframes sweep { 0%, 70% { transform: translateX(-150px) skewX(-20deg); } 100% { transform: translateX(170px) skewX(-20deg); } }
+    @keyframes glow { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.7; } }
+    .medal { transform-origin: 100px 80px; animation: pop 0.7s cubic-bezier(.2,.8,.3,1.2) 0.30s both; }
+    .shine { animation: sweep 5s ease-in-out 2.10s infinite; }
+    .halo { animation: glow 4s ease-in-out 0.80s infinite; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g class="medal">
+    <polygon class="halo" points="100.0,6.0 164.1,43.0 164.1,117.0 100.0,154.0 35.9,117.0 35.9,43.0" fill="#be185d" fill-opacity="0.18"/>
+    <polygon points="100.0,16.0 155.4,48.0 155.4,112.0 100.0,144.0 44.6,112.0 44.6,48.0" fill="url(#g)"/>
+    <polygon points="100.0,26.0 146.8,53.0 146.8,107.0 100.0,134.0 53.2,107.0 53.2,53.0" fill="none" stroke="#fff" stroke-opacity="0.38" stroke-width="2"/>
+    <g clip-path="url(#c)"><rect class="shine" x="40" y="0" width="56" height="170" fill="url(#s)"/></g>
+    <g fill="#fff"><circle cx="88" cy="64" r="12"/><path d="M64 106a24 22 0 0 1 48 0Z"/></g>
+    <g fill="#fff" fill-opacity="0.78"><circle cx="119" cy="72" r="9"/><path d="M102 106a17 16 0 0 1 34 0Z"/></g>
+  </g>
+  <text x="100" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#e6edf3">Mentor</text>
+  <text x="100" y="200" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e">Guiding junior developers</text>
+  <text x="100" y="219" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e">on testing &amp; clean code</text>
+</svg>

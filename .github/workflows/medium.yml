@@ -1,0 +1,23 @@
+name: Latest Medium articles
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://vaibhavdjain.medium.com/feed"
+          max_post_count: 5
+          template: "- [$title]($url) <sub>· $date</sub>$newline"
+          date_format: "mmm d, yyyy"
+          commit_message: "Update latest Medium articles"
