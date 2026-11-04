@@ -182,6 +182,7 @@ Works with OpenAI, Claude, Gemini, DeepSeek and Bedrock.
 - [Understanding includes, preload, and eager_load in Rails](https://vaibhavdjain.medium.com/understanding-includes-preload-and-eager-load-in-rails-fa1cdfa79043?source=rss-8aca5e6f75d4------2) <sub>· Aug 14, 2025</sub>
 - [Building Real-Time Partial Component Updates in Rails 8.0.2 with Turbo Frames &lpar;Ruby 3.4.5&rpar;](https://vaibhavdjain.medium.com/building-real-time-partial-component-updates-in-rails-8-0-2-with-turbo-frames-ruby-3-4-5-f11c94fa7e4f?source=rss-8aca5e6f75d4------2) <sub>· Aug 10, 2025</sub>
 - [Securing APIs: OAuth2, JWT, and API Keys](https://vaibhavdjain.medium.com/securing-apis-oauth2-jwt-and-api-keys-457c1466be44?source=rss-8aca5e6f75d4------2) <sub>· Jun 9, 2025</sub>
+
 <!-- BLOG-POST-LIST:END -->
 
 <sub>➡️ More on [Medium](https://vaibhavdjain.medium.com): multi-tenant architecture, Docker vs Kubernetes, threading, code review culture, Rails engines.</sub>
