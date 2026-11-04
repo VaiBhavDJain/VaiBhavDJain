@@ -21,3 +21,4 @@ jobs:
           template: "- [$title]($url) <sub>· $date</sub>$newline"
           date_format: "mmm d, yyyy"
           commit_message: "Update latest Medium articles"
+          tag_post_pre_newline: true
